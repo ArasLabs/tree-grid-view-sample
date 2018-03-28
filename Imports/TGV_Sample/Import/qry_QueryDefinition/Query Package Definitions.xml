@@ -29,6 +29,12 @@
       <sort_order>128</sort_order>
       <source_id keyed_name="3FA2CBCFFB044FCC81BD55D8C3E8EFCB" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
      </Item>
+     <Item type="qry_QueryItemSortProperty" id="63C822AB33914487828EA688A0773D02" action="add">
+      <property_name>name</property_name>
+      <sort_order>128</sort_order>
+      <sort_order_direction>asc</sort_order_direction>
+      <source_id keyed_name="3FA2CBCFFB044FCC81BD55D8C3E8EFCB" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
+     </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="77027B4180BA467B9DCAA275C7FEF4CB" action="add">
