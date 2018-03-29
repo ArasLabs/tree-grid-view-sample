@@ -14,7 +14,9 @@ Release | Notes
 
 Project | Aras
 --------|------
-[v1.0.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.0.0) | 11.0 SP12
+[v1.0.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.0.0) | 11.0 SP12, 11.0 SP11
+
+> Warning: This package is not backwards-compatible with Innovator 11.0 SP8-10. 
 
 ## Installation
 
