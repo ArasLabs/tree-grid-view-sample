@@ -1,0 +1,12 @@
+﻿<AML>
+ <Item type="CommandBarButton" id="1217C91077AD4928B95F923C1B06660D" action="add">
+  <additional_data>{ "cui_disabled": "true" }</additional_data>
+  <image>../Images/BlockInternal.svg</image>
+  <include_events>SelectInToc,SelectInGrid</include_events>
+  <label xml:lang="en">Structure Browser</label>
+  <on_click_handler keyed_name="EXT_TGV_Part_BOMStructur_onClick" type="Method">195EB07305C247ACA7116CD3A03FD3E1</on_click_handler>
+  <on_init_handler keyed_name="EXT_TGV_Part_BOMStructure_Reinit" type="Method">DD6F4C2385CE48A18B71D2C70622F2B0</on_init_handler>
+  <tooltip_template xml:lang="en">Show Part structure</tooltip_template>
+  <name>EXT_mwt_Part_tgv_StructureBrowser</name>
+ </Item>
+</AML>

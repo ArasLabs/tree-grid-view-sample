@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="E12952C95CE0450CA4C9D9085E0E372D" action="add">
+  <action>Add</action>
+  <related_id keyed_name="EXT_Part_tgv_Separator" type="CommandBarItem">
+   <Item type="CommandBarSeparator" id="63FBF765CBF54E2B829AFB394E1538DB" action="add">
+    <name>EXT_Part_tgv_Separator</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>623</sort_order>
+  <source_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</source_id>
+ </Item>
+</AML>

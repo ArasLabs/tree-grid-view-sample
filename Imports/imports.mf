@@ -1,3 +1,4 @@
 <imports>
   <package name="aras.labs.TGV_Sample" path="TGV_Sample\Import" />
+  <package name="ext.tgv.WhereUsed+BOMStructure" path="WhereUsed+BOMStructure\Import" />
 </imports>

@@ -1,0 +1,20 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="018433EA79C646F88844146CFCC13DE1" action="add">
+  <action>Add</action>
+  <related_id keyed_name="EXT_mwt_Part_tgv_StructureBrowser" type="CommandBarItem">
+   <Item type="CommandBarButton" id="1217C91077AD4928B95F923C1B06660D" action="add">
+    <additional_data>{ "cui_disabled": "true" }</additional_data>
+    <image>../Images/BlockInternal.svg</image>
+    <include_events>SelectInToc,SelectInGrid</include_events>
+    <label xml:lang="en">Structure Browser</label>
+    <on_click_handler keyed_name="EXT_TGV_Part_BOMStructur_onClick" type="Method">8F07B0EDF8DC481EB5CC1B837FBCE85F</on_click_handler>
+    <on_init_handler keyed_name="EXT_TGV_Part_BOMStructure_Reinit" type="Method">DD6F4C2385CE48A18B71D2C70622F2B0</on_init_handler>
+    <tooltip_template xml:lang="en">Show Part structure</tooltip_template>
+    <name>EXT_mwt_Part_tgv_StructureBrowser</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>620</sort_order>
+  <source_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</source_id>
+ </Item>
+</AML>

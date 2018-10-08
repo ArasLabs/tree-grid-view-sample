@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="PresentationConfiguration" id="AC5CEE829D1B48CA826163E11B54E104" action="add">
+  <secondary_icon>../Images/PartOff.svg</secondary_icon>
+  <style>background-color: rgba(137, 89, 171, 0.65);</style>
+  <name>EXT_part_presentation_configuration</name>
+  <Relationships>
+   <Item type="PresentationCommandBarSection" id="52A6147D7E07497784D1FAC13740F431" action="add">
+    <related_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="EXT_part_presentation_configuration" type="PresentationConfiguration">AC5CEE829D1B48CA826163E11B54E104</source_id>
+   </Item>
+   <Item type="PresentationCommandBarSection" id="15F838856D594F2AA4B29D6BD222B6E2" action="add">
+    <related_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>200</sort_order>
+    <source_id keyed_name="EXT_part_presentation_configuration" type="PresentationConfiguration">AC5CEE829D1B48CA826163E11B54E104</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

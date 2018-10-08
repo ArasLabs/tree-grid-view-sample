@@ -1,0 +1,17 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="9CACCE67069E4CA9B98F40106D8A4CFF" action="add">
+  <action>Add</action>
+  <related_id keyed_name="EXT_twt_Part_tgv_StructureBrowser" type="CommandBarItem">
+   <Item type="CommandBarButton" id="E1B94C59FF364B32B92CF1F531617D0F" action="add">
+    <image>../Images/BlockInternal.svg</image>
+    <label xml:lang="en">Structure Browser</label>
+    <on_click_handler keyed_name="EXT_TGV_Part_BOMStructur_onClick" type="Method">8F07B0EDF8DC481EB5CC1B837FBCE85F</on_click_handler>
+    <tooltip_template xml:lang="en">Show Part structure</tooltip_template>
+    <name>EXT_twt_Part_tgv_StructureBrowser</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>590</sort_order>
+  <source_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</source_id>
+ </Item>
+</AML>

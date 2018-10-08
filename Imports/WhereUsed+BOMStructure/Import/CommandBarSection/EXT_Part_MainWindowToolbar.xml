@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="CommandBarSection" id="A554D76F2C154CD39EA3D62F013E8048" action="add">
+  <classification>Data Model</classification>
+  <location_name>MainWindowToolbar</location_name>
+  <name>EXT_Part_MainWindowToolbar</name>
+  <Relationships>
+   <Item type="CommandBarSectionItem" id="018433EA79C646F88844146CFCC13DE1" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_mwt_Part_tgv_StructureBrowser" type="CommandBarItem">1217C91077AD4928B95F923C1B06660D</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>620</sort_order>
+    <source_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="9364BF5FED76464AB92852671ECEC3E3" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_mwt_Part_tgv_WhereUsed" type="CommandBarItem">145A4EA03BFA450684D17FB25450C60D</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>621</sort_order>
+    <source_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="E12952C95CE0450CA4C9D9085E0E372D" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_Part_tgv_Separator" type="CommandBarItem">63FBF765CBF54E2B829AFB394E1538DB</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>623</sort_order>
+    <source_id keyed_name="EXT_Part_MainWindowToolbar" type="CommandBarSection">A554D76F2C154CD39EA3D62F013E8048</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,87 @@
+﻿<AML>
+ <Item type="Method" id="A34A513B4FBC475B862E33BD1311FECA" action="add">
+  <comments>onClick Method, called from CUI button</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[var topWindow = aras.getMostTopWindowWithAras(window);
+var tgvdIdParam;
+var startConditionProviderParam;
+var parametersProviderParam;
+
+tgvdIdParam = 'tgvdId=4537BD062A1548F79F22C2E8BD7BB170';
+
+var id;
+if (topWindow.work && topWindow.work.grid) 
+{ 
+    // get ID from grid
+    var workFrame = topWindow.work; 
+    // Optional: Add option to handle multible items at the same time
+    // var selectedIds = workFrame.grid.getSelectedItemIds(',').split(',');
+    id = workFrame.grid.getSelectedID();
+} else {
+    // get ID from Form
+    id = thisItem.getID();
+}
+
+/* Uncomment and customize the code below to customize startConditionProvider */
+topWindow.CustomStartConditionProvider = function(arg) {
+	this.getCondition = function() {
+	    var idlist = [id]; // ['ID1', 'ID2'];
+		var managerId = arg; //"Innovator Admin" ID comes from the startConditionProviderParam args
+		//id IN (idlist) AND managed_by_id = managerId
+		return {
+			'id': idlist,
+			//'managed_by_id': managerId
+		};
+	};
+};
+var managerIdentityId = 'DBA5D86402BF43D5976854B8B48FCDD1'; // "Innovator Admin" ID is for example
+var managerIdentityIdUriEncoded = encodeURIComponent(managerIdentityId);
+startConditionProviderParam = 'startConditionProvider=parent.CustomStartConditionProvider(' + managerIdentityIdUriEncoded + ')';
+
+
+/* Uncomment and modify the code below to customize parametersProvider */
+/*
+topWindow.CustomParametersProvider = function(arg) {
+	var parameters = {
+		'param1Name': 'param1Value',
+		'param2Name': arg //'param2Value' comes from the parametersProviderParam args
+	};
+
+	this.getParameters = function() {
+		return parameters;
+	};
+	this.setParameter = function(name, value) {
+		//for the case if a parameter is updated by enduser in TGV UI.
+		parameters[name] = value;
+	};
+}
+var param2ValueUriEncoded = encodeURIComponent('param2Value');
+parametersProviderParam = 'parametersProvider=parent.CustomParametersProvider(' + param2ValueUriEncoded + ')';
+*/
+
+// see more examples in Innovator\Client\Modules\aras.innovator.TreeGridView\Examples
+
+var tgvUrl = aras.getBaseURL('/Modules/aras.innovator.TreeGridView/Views/MainPage.html?');
+var allParams = [tgvdIdParam, startConditionProviderParam, parametersProviderParam];
+for (var i = 0; i < allParams.length; i++) {
+	if (allParams[i]) {
+		tgvUrl += (i === 0 ? '' : '&') + allParams[i];
+	}
+}
+
+var dialogParameters = {
+	dialogWidth: 1400,
+	dialogHeight: 600,
+	title: 'Where Used',
+	content: tgvUrl
+};
+
+topWindow.ArasModules.MaximazableDialog.show('iframe', dialogParameters).promise.then(function() {
+	delete topWindow.CustomStartConditionProvider;
+	delete topWindow.CustomParametersProvider;
+});
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>EXT_TGV_Part_WhereUsed_onClick</name>
+ </Item>
+</AML>

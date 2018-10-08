@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="8AFAA0B26E184D34B5E634D832B62E7C" action="add">
+  <action>Add</action>
+  <related_id keyed_name="EXT_Part_tgv_Separator" type="CommandBarItem">
+   <Item type="CommandBarSeparator" id="63FBF765CBF54E2B829AFB394E1538DB" action="add">
+    <name>EXT_Part_tgv_Separator</name>
+   </Item>
+  </related_id>
+  <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+  <sort_order>592</sort_order>
+  <source_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</source_id>
+ </Item>
+</AML>

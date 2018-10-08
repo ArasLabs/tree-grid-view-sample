@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="CommandBarSection" id="31B2EAB1B78D4CDAB8A35AB0953A6D38" action="add">
+  <classification>Data Model</classification>
+  <location_name>TearoffWindowToolbar</location_name>
+  <name>EXT_Part_Tearoff Window Toolbar</name>
+  <Relationships>
+   <Item type="CommandBarSectionItem" id="9CACCE67069E4CA9B98F40106D8A4CFF" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_twt_Part_tgv_StructureBrowser" type="CommandBarItem">E1B94C59FF364B32B92CF1F531617D0F</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>590</sort_order>
+    <source_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="2C97FE8735C34FD0B2848E5BD893310A" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_twt_Part_tgv_WhereUsed" type="CommandBarItem">4760F298290C4E7885CD02FE490BB085</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>591</sort_order>
+    <source_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</source_id>
+   </Item>
+   <Item type="CommandBarSectionItem" id="8AFAA0B26E184D34B5E634D832B62E7C" action="add">
+    <action>Add</action>
+    <related_id keyed_name="EXT_Part_tgv_Separator" type="CommandBarItem">63FBF765CBF54E2B829AFB394E1538DB</related_id>
+    <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+    <sort_order>592</sort_order>
+    <source_id keyed_name="EXT_Part_Tearoff Window Toolbar" type="CommandBarSection">31B2EAB1B78D4CDAB8A35AB0953A6D38</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

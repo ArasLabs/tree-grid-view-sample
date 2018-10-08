@@ -1,0 +1,24 @@
+﻿<AML>
+ <Item type="Method" id="DD6F4C2385CE48A18B71D2C70622F2B0" action="add">
+  <comments>Init Method for custom 'EXT_Part_tgv_StructureBrowser' CUI element</comments>
+  <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+  <method_code><![CDATA[if (inArgs.isReinit) {
+	var topWindow = aras.getMostTopWindowWithAras(window);
+	var workerFrame = topWindow.work;
+	if (workerFrame.itemTypeName === 'InBasket Task') {
+		return {'cui_disabled': true};
+	}
+
+	if (workerFrame && workerFrame.grid) {
+		var itemIDs = workerFrame.grid.getSelectedItemIds();
+		var state = inArgs.eventState.isPromote && itemIDs && itemIDs.length == 1 && !isFunctionDisabled(workerFrame.itemTypeName, 'EXT_Part_tgv_StructureBrowser');
+		return {'cui_disabled': !state};
+	} else {
+		return {'cui_disabled': true};
+	}
+}
+return {};]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>EXT_TGV_Part_BOMStructure_Reinit</name>
+ </Item>
+</AML>
