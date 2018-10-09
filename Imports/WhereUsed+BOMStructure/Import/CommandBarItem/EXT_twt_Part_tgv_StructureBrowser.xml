@@ -2,7 +2,7 @@
  <Item type="CommandBarButton" id="E1B94C59FF364B32B92CF1F531617D0F" action="add">
   <image>../Images/BlockInternal.svg</image>
   <label xml:lang="en">Structure Browser</label>
-  <on_click_handler keyed_name="EXT_TGV_Part_BOMStructur_onClick" type="Method">195EB07305C247ACA7116CD3A03FD3E1</on_click_handler>
+  <on_click_handler keyed_name="EXT_TGV_Part_BOMStructur_onClick" type="Method">072E8757D8674E4EB7BD27F04463472E</on_click_handler>
   <tooltip_template xml:lang="en">Show Part structure</tooltip_template>
   <name>EXT_twt_Part_tgv_StructureBrowser</name>
  </Item>

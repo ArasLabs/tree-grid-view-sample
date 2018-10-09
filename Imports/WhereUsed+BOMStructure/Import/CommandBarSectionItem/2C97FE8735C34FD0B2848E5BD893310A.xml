@@ -5,7 +5,7 @@
    <Item type="CommandBarButton" id="4760F298290C4E7885CD02FE490BB085" action="add">
     <image>../Images/ViewWorkflow.svg</image>
     <label xml:lang="en">Where Used</label>
-    <on_click_handler keyed_name="EXT_TGV_Part_WhereUsed_onClick" type="Method">6C475FCEAE22476AAD5185FE8BF47FB5</on_click_handler>
+    <on_click_handler keyed_name="EXT_TGV_Part_WhereUsed_onClick" type="Method">DFCB4A7E712F44C7B894A69FDDFD2422</on_click_handler>
     <tooltip_template xml:lang="en">Show where Part is used</tooltip_template>
     <name>EXT_twt_Part_tgv_WhereUsed</name>
    </Item>

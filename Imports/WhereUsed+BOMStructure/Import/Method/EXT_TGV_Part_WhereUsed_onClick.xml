@@ -1,5 +1,5 @@
 ﻿<AML>
- <Item type="Method" id="A34A513B4FBC475B862E33BD1311FECA" action="add">
+ <Item type="Method" id="DFCB4A7E712F44C7B894A69FDDFD2422" action="add">
   <comments>onClick Method, called from CUI button</comments>
   <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
   <method_code><![CDATA[var topWindow = aras.getMostTopWindowWithAras(window);
@@ -79,8 +79,7 @@ var dialogParameters = {
 topWindow.ArasModules.MaximazableDialog.show('iframe', dialogParameters).promise.then(function() {
 	delete topWindow.CustomStartConditionProvider;
 	delete topWindow.CustomParametersProvider;
-});
-]]></method_code>
+});]]></method_code>
   <method_type>JavaScript</method_type>
   <name>EXT_TGV_Part_WhereUsed_onClick</name>
  </Item>
