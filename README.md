@@ -18,18 +18,18 @@ Project | Aras
 
 > Warning: This package is not backwards-compatible with Innovator 11.0 SP10. 
 
-## Installation
+## Installation:
 
 #### Important!
 **Always back up your code tree and database before applying an import package or code tree patch!**
 
-### Pre-requisites
+### Pre-requisites:
 
 1. Aras Innovator installed (version 11.0 SP12)
 2. Aras Package Import Utility
 3. aras.labs.TGV_Sample package
 
-### Install Steps
+### Steps to install:
 
 1. Backup your database and store the BAK file in a safe place.
 2. Open up the Aras Package Import tool.
