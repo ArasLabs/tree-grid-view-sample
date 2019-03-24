@@ -8,12 +8,14 @@ An upcoming Aras Labs blog post will walk through the steps of manually configur
 
 Release | Notes
 --------|--------
+[v1.1.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.1.0) | Confirmed support for Aras 11.0 SP15.
 [v1.0.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.0.0) | First release.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
+[v1.1.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.1.0) | 11.0 SP15, 11.0 SP14, 11.0 SP12, 11.0 SP11
 [v1.0.0](https://github.com/ArasLabs/tree-grid-view-sample/releases/tag/v1.0.0) | 11.0 SP12, 11.0 SP11
 
 > Warning: This package is not backwards-compatible with Innovator 11.0 SP10. 
