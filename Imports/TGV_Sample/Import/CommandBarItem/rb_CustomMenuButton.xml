@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="AD2F456C45044E27BEE32A0B31F222D5" action="add">
+  <include_events>SelectInToc</include_events>
+  <label xml:lang="en">CustomMenuButton - Open Package Element for View</label>
+  <on_click_handler keyed_name="rb_CustomMenuButtonHandler" type="Method">C9FFF0C6A35B40458E9ED4689139C56A</on_click_handler>
+  <parent_menu keyed_name="rb_CustomMenu" type="CommandBarMenu">2872D43D48D043869DE0C3E28B3BCC4F</parent_menu>
+  <name>rb_CustomMenuButton</name>
+ </Item>
+</AML>

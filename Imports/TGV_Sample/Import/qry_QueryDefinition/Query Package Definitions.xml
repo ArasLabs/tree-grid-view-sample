@@ -4,60 +4,60 @@
   <name>Query Package Definitions</name>
   <Relationships>
    <Item type="qry_QueryItem" id="9521E2E00C7B4B0783CFEE8CF3914853" action="add">
-    <alias>PackageDefinition</alias>
     <item_type keyed_name="PackageDefinition" type="ItemType" name="PackageDefinition">F312562D6AD948DCBCCCCF6A615EE0EA</item_type>
     <ref_id>B140E1D29C954B93912CEDD4A6DA210A</ref_id>
     <sort_order>128</sort_order>
     <source_id keyed_name="Query Package Definitions" type="qry_QueryDefinition">124F907FB9B7435B988B8E9AE0071F3C</source_id>
+    <alias>PackageDefinition</alias>
     <Relationships>
      <Item type="qry_QueryItemSelectProperty" id="8B43C51A8FA647ABA65B39566CDEBD6D" action="add">
       <property_name>name</property_name>
       <sort_order>128</sort_order>
-      <source_id keyed_name="9521E2E00C7B4B0783CFEE8CF3914853" type="qry_QueryItem">9521E2E00C7B4B0783CFEE8CF3914853</source_id>
+      <source_id keyed_name="PackageDefinition" type="qry_QueryItem">9521E2E00C7B4B0783CFEE8CF3914853</source_id>
      </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="3FA2CBCFFB044FCC81BD55D8C3E8EFCB" action="add">
-    <alias>PackageGroup</alias>
     <item_type keyed_name="PackageGroup" type="ItemType" name="PackageGroup">51CE2CDC8D3F49C7BF707B8E0A4BD15F</item_type>
     <ref_id>7900FE01FCC64B2AAA548AE4AC606CC9</ref_id>
     <sort_order>256</sort_order>
     <source_id keyed_name="Query Package Definitions" type="qry_QueryDefinition">124F907FB9B7435B988B8E9AE0071F3C</source_id>
+    <alias>PackageGroup</alias>
     <Relationships>
      <Item type="qry_QueryItemSelectProperty" id="EFBB79E539F844AE95857879EBEDBADD" action="add">
       <property_name>name</property_name>
       <sort_order>128</sort_order>
-      <source_id keyed_name="3FA2CBCFFB044FCC81BD55D8C3E8EFCB" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
+      <source_id keyed_name="PackageGroup" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
      </Item>
      <Item type="qry_QueryItemSortProperty" id="63C822AB33914487828EA688A0773D02" action="add">
       <property_name>name</property_name>
       <sort_order>128</sort_order>
       <sort_order_direction>asc</sort_order_direction>
-      <source_id keyed_name="3FA2CBCFFB044FCC81BD55D8C3E8EFCB" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
+      <source_id keyed_name="PackageGroup" type="qry_QueryItem">3FA2CBCFFB044FCC81BD55D8C3E8EFCB</source_id>
      </Item>
     </Relationships>
    </Item>
    <Item type="qry_QueryItem" id="77027B4180BA467B9DCAA275C7FEF4CB" action="add">
-    <alias>PackageElement</alias>
     <item_type keyed_name="PackageElement" type="ItemType" name="PackageElement">D1AEF724041942BCAAC8CADBBDFD5EF4</item_type>
     <ref_id>7F84997CDFF944A4B3136326DE80B6B4</ref_id>
     <sort_order>384</sort_order>
     <source_id keyed_name="Query Package Definitions" type="qry_QueryDefinition">124F907FB9B7435B988B8E9AE0071F3C</source_id>
+    <alias>PackageElement</alias>
     <Relationships>
      <Item type="qry_QueryItemSelectProperty" id="DA20D2581DA34394815E6230EB49146E" action="add">
       <property_name>element_type</property_name>
       <sort_order>128</sort_order>
-      <source_id keyed_name="77027B4180BA467B9DCAA275C7FEF4CB" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
+      <source_id keyed_name="PackageElement" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
      </Item>
      <Item type="qry_QueryItemSelectProperty" id="F33DB682E05945C2B69BE6BD133E1381" action="add">
       <property_name>element_id</property_name>
       <sort_order>256</sort_order>
-      <source_id keyed_name="77027B4180BA467B9DCAA275C7FEF4CB" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
+      <source_id keyed_name="PackageElement" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
      </Item>
      <Item type="qry_QueryItemSelectProperty" id="68E1C2AF879F450F9A0F2FC7FB9DCB74" action="add">
       <property_name>name</property_name>
       <sort_order>384</sort_order>
-      <source_id keyed_name="77027B4180BA467B9DCAA275C7FEF4CB" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
+      <source_id keyed_name="PackageElement" type="qry_QueryItem">77027B4180BA467B9DCAA275C7FEF4CB</source_id>
      </Item>
     </Relationships>
    </Item>
