@@ -1,0 +1,6 @@
+﻿<AML>
+ <Item type="CommandBarMenu" id="2872D43D48D043869DE0C3E28B3BCC4F" action="add">
+  <label xml:lang="en">CustomMenu</label>
+  <name>rb_CustomMenu</name>
+ </Item>
+</AML>

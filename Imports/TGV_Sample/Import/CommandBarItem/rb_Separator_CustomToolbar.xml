@@ -1,0 +1,5 @@
+﻿<AML>
+ <Item type="CommandBarSeparator" id="154D19A9EF7942F18F5380BD6DE92E62" action="add">
+  <name>rb_Separator_CustomToolbar</name>
+ </Item>
+</AML>

@@ -1,6 +1,8 @@
 ﻿<AML>
  <Item type="rb_TreeGridViewDefinition" id="643BBFE7BAD046AE8B393BC54920CD88" action="add">
   <description>Display a tree grid view of a PackageDefinition's contents</description>
+  <max_child_items>100</max_child_items>
+  <max_query_depth>2</max_query_depth>
   <query_definition keyed_name="Query Package Definitions" type="qry_QueryDefinition">124F907FB9B7435B988B8E9AE0071F3C</query_definition>
   <name>Package Structure</name>
   <Relationships>
@@ -50,7 +52,7 @@
     <Relationships>
      <Item type="rb_ColumnMapping" id="30FDCEE107B841459CBD2918F81E62C9" action="add">
       <cell_view_type>Item</cell_view_type>
-      <data_template />
+      <data_template>{PackageElement.element_type}</data_template>
       <sort_order>128</sort_order>
       <source_id keyed_name="9FB168EC5A1844988D4D0E8F47CCD2B9" type="rb_ColumnDefinition">9FB168EC5A1844988D4D0E8F47CCD2B9</source_id>
       <template>{"text_template":"{PackageElement.element_id}","item_type_name":"{PackageElement.element_type}","item_id":"{PackageElement.element_id}"}</template>

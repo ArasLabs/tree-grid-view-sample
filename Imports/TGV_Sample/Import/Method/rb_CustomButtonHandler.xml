@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="Method" id="57C18A0B2EF6470587D6DF8166CCF4F9" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[aras.AlertSuccess("Called from custom toolbar button");]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>rb_CustomButtonHandler</name>
+ </Item>
+</AML>
